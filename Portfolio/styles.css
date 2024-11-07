@@ -1,0 +1,203 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Arial', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 5px solid #fff; /* White border around the image */
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+/* About Section */
+#about {
+    background-color: #c5e5c5; /* Yellow background */
+    color: #333;
+    padding: 40px 0;
+}
+
+#about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #4CAF50; /* Green color for headings */
+}
+
+#about p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #2196F3; /* Blue background */
+    color: white;
+    padding: 40px 0;
+}
+
+#skills h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#skills ul li {
+    background-color: #fff;
+    color: #2196F3; /* Blue text */
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #fff;
+    color: #333;
+    padding: 40px 0;
+}
+
+#projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #4CAF50; /* Green heading */
+}
+
+.project {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #2196F3; /* Blue for project title */
+}
+
+.project p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #dde6eb; /* Amber background */
+    color: #333;
+    padding: 40px 0;
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #4CAF50; /* Green heading */
+}
+
+#contact ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+#contact ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+#contact a {
+    color: #2196F3; /* Blue link color */
+}
+
+#contact a:hover {
+    color: #4CAF50; /* Green on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 1.1em;
+}
+
+/* Button Style */
+button {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    margin: 20px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
